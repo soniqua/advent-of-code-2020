@@ -6,26 +6,21 @@ try{
   var data = fs.readFileSync('input', 'utf8')
   var lines = data.split('\n');
   let newStr=""
-  for (i =0; i < lines.length; i++) {
+  for (line in lines) {
     //care if line is not zero, then next passport
-    if (lines[i].length > 0){
-      newStr = newStr + " " + lines[i]
+    if (lines[line].length > 0){
+      newStr = newStr + " " + lines[line]
     } else {
       //passport has ended, check
       var valid=true
-      var fieldCount=8
-      console.log(`Checking ${newStr}`)
-      for (j=0; j< fields.length; j++) {
-        if (! newStr.includes(fields[j])) {
-          console.log(`Missing ${fields[j]}`)
-          var fieldCount=fieldCount-1
+      for (field in fields) {
+        if (! newStr.includes(fields[field])) {
           valid=false
         }
       }
       if (valid){
         validCount = validCount + 1
       }
-      console.log(fieldCount)
       newStr=""
     }
   }
