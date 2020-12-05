@@ -1,0 +1,65 @@
+Shield Energy was 0
+
+Ship Damage takes Power and Hull
+Deflector Shields was 0
+Growth Rate was 8
+Put Power of Growth Rate into Power
+Put Power plus Hull into Deflector Shields
+Give back Deflector Shields
+
+Weapons Power takes Power and Fuel and Polarity
+Artificial Singularity was 1
+Put Fuel into Fuel Tanks
+While Fuel Tanks is smaller than Power
+Build Fuel Tanks up
+Build Artificial Singularity up
+
+Put Artificial Singularity over 2 into Artificial Singularity
+If Polarity is 0
+Put Power minus Artificial Singularity into Artificial Singularity
+Give back Artificial Singularity
+
+Else
+Put Fuel plus Artificial Singularity into Artificial Singularity
+Give back Artificial Singularity
+
+
+Listen to the HQ
+Impact Sites was 0
+Until the HQ is empty
+Energy Cells was X; an unknown
+The Turbolaser was powered
+Subsystem Overload was 0
+Transporter Malfunction was nothing
+Hull Damage was 0
+Planet Smasher was 0
+Ready was explosive
+Shatter the HQ into Exhaust Ports
+While Planet Smasher is as small as Ready
+Put Exhaust Ports at Planet Smasher into Coordinate
+If Coordinate is "F"
+Put Weapons Power taking Energy Cells, Transporter Malfunction, 0 into Energy Cells
+Put Energy Cells into Power Grid
+
+If Coordinate is "B"
+Put Weapons Power taking Energy Cells, Transporter Malfunction, 1 into Transporter Malfunction
+Put Transporter Malfunction into Power Grid
+
+If Coordinate is "L"
+Put Weapons Power taking The Turbolaser, Subsystem Overload, 0 into The Turbolaser
+Put The Turbolaser into Hull Damage
+
+If Coordinate is "R"
+Put Weapons Power taking The Turbolaser, Subsystem Overload, 1 into Subsystem Overload
+Put Subsystem Overload into Hull Damage
+
+Build Planet Smasher up
+
+Put Ship Damage taking Power Grid, Hull Damage into Residual Heat
+Let Shield Array at Impact Sites be Residual Heat
+Put Impact Sites plus 1 into Impact Sites
+Shout Residual Heat
+If Residual Heat is greater than Shield Energy
+Put Residual Heat into Shield Energy
+
+Listen to the HQ
