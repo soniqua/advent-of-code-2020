@@ -4,6 +4,7 @@ I'm going to try and use a different programming language for each challenge:
 
 1. [Shell](1)
 1. [Python](2)
-3. [Powershell](3)
-4. [NodeJS](4)
-4. [Rockstar](5)
+1. [Powershell](3)
+1. [NodeJS](4)
+1. [Rockstar but also a bit of Python](5)
+1. [C++](6)
