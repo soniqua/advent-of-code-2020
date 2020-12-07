@@ -1,5 +1,4 @@
-For those about to rock
-Send help
+For those about to rock... send help.
 
 1. Consider just the first seven characters of FBFBBFFRLR:
 
