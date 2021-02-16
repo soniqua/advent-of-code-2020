@@ -8,3 +8,4 @@ I'm going to try and use a different programming language for each challenge:
 1. [NodeJS](4)
 1. [Rockstar but also a bit of Python](5)
 1. [C++](6)
+1. There is no 7.
